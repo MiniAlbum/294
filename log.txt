@@ -1,9 +1,1 @@
-7��21��
-z-index: 1000;
-ABOUT YJY
-BGM：BIGBANG - FLOWER ROAD
-display:none
-计时器
-7/27
-kb
-fs
+294
