@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>保证书</title>
+	</head>
+	<style type="text/css">
+		#box{
+			margin: auto;
+			width: 700px;
+			height: 800px;
+			display: none;
+		}
+		p{
+			margin: 0;
+			padding: 0;
+		}
+		.txt{
+			text-align: center;
+		}
+		.text1{
+			font-size: 18px;
+			text-indent: 37px;
+		}
+		.text2{
+			font-size: 18px;
+			text-indent: 37px;
+		}
+	</style>
+	<body>
+		<div id='box'>
+			<h2 class="txt">保证书</h2>
+			<p class="text1">
+				亲爱的、崇高的、尊敬的、挚爱的、伟大的、仁慈的……未来女朋友兼未来老婆的陈永鸿大人：
+			</p>
+			<p class="text2">
+				鄙人(你未来男朋友兼未来丈夫)今天对天发誓加保证
+			</p>
+			<p class="text2">
+				1、 保证不会乱开玩笑，不能拿你对我的信任开玩笑！
+			</p>
+			<p class="text2">
+				2、保证不会挑战你的权威，做到言听计从（前提是不违法，不扰民，有道德，有底线）！
+			</p>
+			<p class="text2">
+				3、关于今天你说我驼背的事情，我保证以后不管在哪里都会抬头挺胸，站得像军人一样直！
+			</p>
+			<p class="text2">
+				4、保证有错第一时间认错，不管我是不是对的！
+			</p>
+			<p class="text2">
+				5、保证每一件事，每一句话都先顾及你的感受，不会只考虑到自己，更加不能忽视你！
+			</p>
+			<p class="text2">
+				6、任何时候都不能欺骗你！
+			</p>
+			<p class="text2">
+				7、你不开心的时候会想办法让你开心！
+			</p>
+			<p class="text2">
+				8、不管去那里都要即使象女朋友汇报，保持联系，绝对不能不接女朋友电话，不回女朋友短信(除没
+				听到以外，出门在外，难免会没注意到)
+			</p>
+			<p class="text2">
+				9、暂时只有这些，后续你随时可以加！
+			</p>
+			<p class="text1">
+				如有违反（以下任意选，可以多选，听你的）：
+			</p>
+			<p class="text2">
+				1、扯20根腿毛！
+			</p>
+			<p class="text2">
+				2、穿女装、扮女妆，拍照留下来，下次再犯同样的错误就发你们班群！
+			</p>
+			<p class="text2">
+				3、去人最多的超市买卫生巾送到面前，全程录像，并且不能用塑料袋装，不能揣兜里，只能手拿！
+			</p>
+			<p class="text2">
+				4、照着你的微信二维码拿白纸画，扫不出重重的打！
+			</p>
+			<p class="text2">
+				5、如果你有更好的就听你的！
+			</p>
+			<br /><br /><br /><br /><br /><br />
+			<div style="float: left;">签字：</div>
+			<img width="300" style="position: absolute;top: 680px;left: 30%;" src="images/20191027_021503.jpg" alt="" />
+			<div style="float: right;">2019年10月27日</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var s = prompt("请重新输入密码");
+		console.log(s)
+		for(var i=3; i>0 ; i--){
+			if(s == null)  
+				CloseWebPage(); 
+			else if(s != '980528')
+				s = prompt("密码错误，请重新输入密码!你还有"+i+"次机会");
+			else if(s == '980528')
+				box.style.display="block";
+			else if(i==1)
+				CloseWebPage();
+		}
+		function CloseWebPage() {     
+		    if (navigator.userAgent.indexOf("MSIE") > 0) {     
+		    if (navigator.userAgent.indexOf("MSIE 6.0") > 0) {     
+		        window.opener = null; window.close();     
+		        }     
+		        else {     
+		            window.open('', '_top'); window.top.close();     
+		        }     
+		    }     
+		    else if (navigator.userAgent.indexOf("Firefox") > 0) {     
+		         window.location.href = 'about:blank '; 
+		    }     
+		    else {     
+		        window.opener = null;      
+		        window.open('', '_self', '');     
+		        window.close();     
+		    }     
+	}        
+	</script>
+</html>
